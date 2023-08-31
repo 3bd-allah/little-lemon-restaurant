@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(250, 235, 215, 0.284);
+    margin: 5rem 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem
+}
+  
+header{
+    text-align: center;
+}
+header > img {
+    display: inline-block;
+    width: 50vw;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.75) ;    
+    border-radius: 20px;
+    margin: 50px 0px ;
+}
+nav li {
+    display:inline-block ;
+    text-align: center;
+    margin: 2%;
+    font-size: 1.3em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.discount{
+    padding: 2%;
+    background-image: url(discountImg.webp);
+    border-radius: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+section{
+    display: flex;
+    margin: 10px;
+    /* gap: 2rem 3rem  ;
+    margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+article{
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+
+}
+
+h2 ~ img{
+    width: 100%;
+}
+
+.new-menu , .book-table , .opening-hours{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 2%;
+    background-color: rgba(222, 141, 35, 0.519);
+}
+
+article ul {
+    list-style-type: none;
+}
+
+footer{
+    display: flex;
+    margin: 10px;
+    padding: 2%;
+}
+
+div{
+    flex: 1 1;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: flex-end;
+    border-top: 2px solid black;
+}
+
+.mini-logo img {
+    width: 7vw;
+}
+
+ .popup:hover{
+    box-shadow: 1px 1px 25px gray;
+
+}
+
+@media (max-width:375px){
+    section{
+        display:block;
+        flex-wrap: wrap;
+    }
+}
