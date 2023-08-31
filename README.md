@@ -1,3 +1,3 @@
-# Coursera
-# HTML and CSS in depth 
-# Graded Assignment
+Coursera
+HTML and CSS in depth 
+Graded Assignment
