@@ -1,1 +1,3 @@
-# little-lemon-restaurant
+# Coursera
+# HTML and CSS in depth 
+# Graded Assignment
